@@ -154,7 +154,9 @@ Furthermore, it assumes that pH and dissolved oxygen were perfectly controlled, 
 
 ### Influence of Initial Conditions
 The sensitivity analysis reveals how each factor influences the space-time profit:
+
 *Figure 2: Sensitivity analysis of space-time profit and yield to each initial condition (others held at the optimum).*
+
 ![sensitivity.png](figures/sensitivity.png)
 
 - **Initial glucose.** Space-time profit increases from about 38 \$/(L·d) at 5 mM to a maximum of about 67 \$/(L·d) near 23 mM, then declines slightly to about 61 \$/(L·d) at 35 mM. More glucose supports more antibody, but every mM costs 10 \$/L, so beyond about 23 mM the extra antibody no longer pays for the extra medium. The space-time yield, which ignores cost, keeps increasing up to roughly 33 mM. Profit and yield therefore have different optima.
@@ -192,7 +194,9 @@ The lower end of the interval for the space-time profit (40.6 \$/(L·d)) is stil
 ![optimum_profiles.png](figures/optimum_profiles.png)
 
 Space-time profit rises steeply during the first days, because mAb accumulates much faster than the cycle lengthens, and turns negative before about 2.3 d because the value has not yet covered the 620 \$/L cost. 
+
 It peaks around day 6 and then declines slowly, since after day 6 the mAb concentration grows only slowly while the cycle keeps getting longer, so each additional day of culture adds more to the denominator than to the numerator. 
+
 The curve is flat between roughly day 5 and day 7 (values between about 65 and 67 \$/(L·d)), so harvesting a day early or late costs very little
 
 ### Applications
