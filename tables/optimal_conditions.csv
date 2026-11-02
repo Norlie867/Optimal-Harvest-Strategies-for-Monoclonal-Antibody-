@@ -1,0 +1,10 @@
+Quantity,Estimate,Lower 95% PI,Upper 95% PI
+Initial glucose [mM],23.0,,
+Initial glutamine [mM],2.0,,
+Initial VCD [cells/mL],700000.0,,
+Harvest time [d],6.0,,
+Cell culture cost [$/L],620.0,,
+mAb at harvest [mg/L],1.09197790788458,0.9039840510975534,1.2799717646716064
+Cell culture value [$/L],1091.97790788458,903.9840510975534,1279.9717646716065
+Space-time profit [$/(L*d)],67.42541541208286,40.56915015679335,94.28168066737236
+Space-time yield [mg/(L*d)],0.1559968439835114,0.1291405787282219,0.1828531092388009
