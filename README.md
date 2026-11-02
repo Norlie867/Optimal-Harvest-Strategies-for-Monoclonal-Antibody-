@@ -159,12 +159,12 @@ The sensitivity analysis reveals how each factor influences the space-time profi
 
 ![sensitivity.png](figures/sensitivity.png)
 
-- **Initial glucose.** Space-time profit increases from about 38 &#36;/(L·d) at 5 mM to a maximum of about 67 &#36;/(L·d) near 23 mM, then declines slightly to about 61 &#36;/(L·d) at 35 mM. More glucose supports more antibody, but every mM costs 10 &#36;/L, so beyond about 23 mM the extra antibody no longer pays for the extra medium. The space-time yield, which ignores cost, keeps increasing up to roughly 33 mM. Profit and yield therefore have different optima.
-- **Initial glutamine.** Profit is highest at low concentrations (about 67 &#36;/(L·d) at 1.5 to 2 mM) and falls steadily to about 44 &#36;/(L·d) at 7 mM. Glutamine is the most expensive nutrient (20 &#36;/L per mM), while the gain in mAb at higher concentrations is small, so the optimum lies at the lower end of the range. Yield also peaks at a low concentration (about 2.5 mM) and decreases beyond it, so high glutamine is unfavourable for both criteria.
-- **Initial viable cell density.** Profit peaks at about 700,000 cells/mL (about 67 &#36;/(L·d)) and is lower both at 200,000 cells/mL (about 55 &#36;/(L·d)) and at 1.4 million cells/mL (about 52 &#36;/(L·d)). Cells are the largest cost item at the optimum (350 &#36;/L of the 620 &#36;/L), so a higher density raises the cost faster than the value. In contrast, the space-time yield rises almost steadily with cell density, from about 0.12 to 0.17 mg/(L·d). Maximizing yield alone would therefore push the process towards expensive, heavily seeded cultures, which is why space-time profit is the appropriate objective.
+- **Initial glucose.** Space-time profit increases from about 38   `$`/(L·d) at 5 mM to a maximum of about 67   `$`/(L·d) near 23 mM, then declines slightly to about 61   `$`/(L·d) at 35 mM. More glucose supports more antibody, but every mM costs 10   `$`/L, so beyond about 23 mM the extra antibody no longer pays for the extra medium. The space-time yield, which ignores cost, keeps increasing up to roughly 33 mM. Profit and yield therefore have different optima.
+- **Initial glutamine.** Profit is highest at low concentrations (about 67   `$`/(L·d) at 1.5 to 2 mM) and falls steadily to about 44   `$`/(L·d) at 7 mM. Glutamine is the most expensive nutrient (20   `$`/L per mM), while the gain in mAb at higher concentrations is small, so the optimum lies at the lower end of the range. Yield also peaks at a low concentration (about 2.5 mM) and decreases beyond it, so high glutamine is unfavourable for both criteria.
+- **Initial viable cell density.** Profit peaks at about 700,000 cells/mL (about 67   `$`/(L·d)) and is lower both at 200,000 cells/mL (about 55   `$`/(L·d)) and at 1.4 million cells/mL (about 52   `$`/(L·d)). Cells are the largest cost item at the optimum (350   `$`/L of the 620   `$`/L), so a higher density raises the cost faster than the value. In contrast, the space-time yield rises almost steadily with cell density, from about 0.12 to 0.17 mg/(L·d). Maximizing yield alone would therefore push the process towards expensive, heavily seeded cultures, which is why space-time profit is the appropriate objective.
 - **Harvest time.** At the optimal conditions the profit rises steeply during the first days and peaks around day 6. After that, the mAb concentration grows only slowly while the cycle keeps getting longer, so each additional day adds more to the denominator of the space-time profit than to the numerator (Figure 5).
 
-The profit curves are fairly flat around the optimum (for glucose, anywhere between about 18 and 29 mM is within 2 &#36;/(L·d) of the maximum), so the process is robust to small deviations from the recommended values.
+The profit curves are fairly flat around the optimum (for glucose, anywhere between about 18 and 29 mM is within 2   `$`/(L·d) of the maximum), so the process is robust to small deviations from the recommended values.
 
 ### Recommended Conditions and Economic Estimates
 Based on the optimization, the recommended operating conditions to maximize space-time profit are:
@@ -183,21 +183,21 @@ Based on the optimization, the recommended operating conditions to maximize spac
 |Space-time profit [$/(L*d)]|67.42541541208286 |40.56915015679335 |94.28168066737236 |
 |Space-time yield [mg/(L*d)]|0.1559968439835114|0.1291405787282219|0.1828531092388009|
 
-The cost is a deterministic function of the chosen conditions (23 mM × 10 &#36;/L + 2 mM × 20 &#36;/L + 700,000 cells/mL × 0.0005 &#36;/L = 620 &#36;/L), so it has no interval. 
+The cost is a deterministic function of the chosen conditions (23 mM × 10   `$`/L + 2 mM × 20   `$`/L + 700,000 cells/mL × 0.0005   `$`/L = 620   `$`/L), so it has no interval. 
 
-The expected profit per batch is 1,092 − 620 = 472 &#36;/L, spread over a cycle of 6 d of culture plus 1 d of downtime, which gives 67.4 &#36;/(L·d). 
+The expected profit per batch is 1,092 − 620 = 472   `$`/L, spread over a cycle of 6 d of culture plus 1 d of downtime, which gives 67.4   `$`/(L·d). 
 
-The lower end of the interval for the space-time profit (40.6 &#36;/(L·d)) is still positive, so the process is expected to be profitable even under pessimistic assumptions.
+The lower end of the interval for the space-time profit (40.6   `$`/(L·d)) is still positive, so the process is expected to be profitable even under pessimistic assumptions.
 
 *Figure 3: Profiles of mAb titer and space-time profit at the optimal conditions, with 95% prediction intervals.*
 
 ![optimum_profiles.png](figures/optimum_profiles.png)
 
-Space-time profit rises steeply during the first days, because mAb accumulates much faster than the cycle lengthens, and turns negative before about 2.3 d because the value has not yet covered the 620 &#36;/L cost. 
+Space-time profit rises steeply during the first days, because mAb accumulates much faster than the cycle lengthens, and turns negative before about 2.3 d because the value has not yet covered the 620   `$`/L cost. 
 
 It peaks around day 6 and then declines slowly, since after day 6 the mAb concentration grows only slowly while the cycle keeps getting longer, so each additional day of culture adds more to the denominator than to the numerator. 
 
-The curve is flat between roughly day 5 and day 7 (values between about 65 and 67 &#36;/(L·d)), so harvesting a day early or late costs very little
+The curve is flat between roughly day 5 and day 7 (values between about 65 and 67   `$`/(L·d)), so harvesting a day early or late costs very little
 
 ### Applications
 This model can be used by process development engineers to rapidly screen initial conditions before running expensive physical experiments.
